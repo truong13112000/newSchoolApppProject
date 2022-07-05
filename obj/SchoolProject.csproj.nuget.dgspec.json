@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\SchoolProject - Copy\\SchoolProject\\SchoolProject.csproj": {}
+    "D:\\Solution\\Unaiit\\newSchoolApppProject\\SchoolProject.csproj": {}
   },
   "projects": {
-    "F:\\SchoolProject - Copy\\SchoolProject\\SchoolProject.csproj": {
+    "D:\\Solution\\Unaiit\\newSchoolApppProject\\SchoolProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\SchoolProject - Copy\\SchoolProject\\SchoolProject.csproj",
+        "projectUniqueName": "D:\\Solution\\Unaiit\\newSchoolApppProject\\SchoolProject.csproj",
         "projectName": "SchoolProject",
-        "projectPath": "F:\\SchoolProject - Copy\\SchoolProject\\SchoolProject.csproj",
-        "packagesPath": "C:\\Users\\TruongNX3\\.nuget\\packages\\",
-        "outputPath": "F:\\SchoolProject - Copy\\SchoolProject\\obj\\",
+        "projectPath": "D:\\Solution\\Unaiit\\newSchoolApppProject\\SchoolProject.csproj",
+        "packagesPath": "C:\\Users\\LuongND\\.nuget\\packages\\",
+        "outputPath": "D:\\Solution\\Unaiit\\newSchoolApppProject\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\TruongNX3\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\LuongND\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -48,49 +44,57 @@
               "target": "Package",
               "version": "[7.2.1, )"
             },
-            "Abp.EntityFrameworkCore": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.2.1, )"
+              "version": "[6.0.6, )"
             },
-            "Microsoft.AspNet.Identity.EntityFramework": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
               "target": "Package",
-              "version": "[2.2.3, )"
+              "version": "[2.2.0, )"
             },
-            "Microsoft.AspNet.Mvc": {
+            "Microsoft.AspNetCore.Identity": {
               "target": "Package",
-              "version": "[5.2.9, )"
-            },
-            "Microsoft.AspNet.Providers.Core": {
-              "target": "Package",
-              "version": "[2.0.0, )"
+              "version": "[2.2.0, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.5, )"
             },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
             "Microsoft.AspNetCore.Session": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.5, )"
+              "version": "[6.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.5, )"
+              "version": "[6.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.5, )"
+              "version": "[6.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.5, )"
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             },
             "Microsoft.TestPlatform.TestHost": {
               "target": "Package",

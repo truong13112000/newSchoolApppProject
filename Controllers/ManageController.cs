@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using SchoolProject.Models;
 using SchoolProject.ValidateService;
-using System.Data.Entity.Infrastructure;
 using System.Reflection;
 using System.Resources;
 using X.PagedList;

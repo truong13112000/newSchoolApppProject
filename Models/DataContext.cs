@@ -29,11 +29,8 @@ namespace SchoolProject.Models
                     entityType.SetTableName(tableName.Substring(6));
                 }
             }
-            modelBuilder.Entity<Microsoft.AspNet.Identity.EntityFramework.IdentityUserLogin>().HasKey(e => e.UserId);
-            modelBuilder.Entity<Microsoft.AspNet.Identity.EntityFramework.IdentityUserRole>().HasKey(e => new { e.UserId ,e.RoleId});
             modelBuilder.Entity<UserDetail>().HasKey(e => e.UserId);
-            modelBuilder.Entity<RoleGroup>().HasKey(e => new { e.GroupId });
-            modelBuilder.Entity<UserGroup>().HasNoKey();
+            modelBuilder.Entity<RoleGroup>().HasKey(pc => new { pc.GroupId, pc.RoleId });
             foreach (var entityType in modelBuilder.Model.GetEntityTypes())
             {
                 var parameter = Expression.Parameter(entityType.ClrType);

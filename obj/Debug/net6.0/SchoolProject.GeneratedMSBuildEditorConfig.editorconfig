@@ -8,173 +8,173 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SchoolProject
 build_property.RootNamespace = SchoolProject
-build_property.ProjectDir = F:\SchoolProject - Copy\SchoolProject\
+build_property.ProjectDir = D:\Solution\Unaiit\newSchoolApppProject\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = F:\SchoolProject - Copy\SchoolProject
+build_property.MSBuildProjectDirectory = D:\Solution\Unaiit\newSchoolApppProject
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/ClassEntities/Create.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/ClassEntities/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NFbnRpdGllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/ClassEntities/Delete.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/ClassEntities/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NFbnRpdGllc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/ClassEntities/Details.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/ClassEntities/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NFbnRpdGllc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/ClassEntities/Edit.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/ClassEntities/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NFbnRpdGllc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/ClassEntities/Index.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/ClassEntities/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NFbnRpdGllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/DepartmentEntities/Create.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/DepartmentEntities/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudEVudGl0aWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/DepartmentEntities/Delete.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/DepartmentEntities/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudEVudGl0aWVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/DepartmentEntities/Details.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/DepartmentEntities/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudEVudGl0aWVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/DepartmentEntities/Edit.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/DepartmentEntities/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudEVudGl0aWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/DepartmentEntities/Index.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/DepartmentEntities/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudEVudGl0aWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/GroupManageRole/Create.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/GroupManageRole/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBNYW5hZ2VSb2xlXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/GroupManageRole/Edit.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/GroupManageRole/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBNYW5hZ2VSb2xlXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/GroupManageRole/EditRole.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/GroupManageRole/EditRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBNYW5hZ2VSb2xlXEVkaXRSb2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/GroupManageRole/Index.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/GroupManageRole/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBNYW5hZ2VSb2xlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/Home/Index.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/Home/LogIn.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/Home/LogIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dJbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/Home/Privacy.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/Home/SignUp.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/Home/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/Manage/Create.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/Manage/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/Manage/Edit.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/Manage/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/Manage/Index.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/RoleManage/Create.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/RoleManage/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZU1hbmFnZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/RoleManage/Edit.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/RoleManage/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZU1hbmFnZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/RoleManage/Index.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/RoleManage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZU1hbmFnZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/SchoolEntities/Create.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/SchoolEntities/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sRW50aXRpZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/SchoolEntities/Delete.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/SchoolEntities/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sRW50aXRpZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/SchoolEntities/Details.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/SchoolEntities/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sRW50aXRpZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/SchoolEntities/Edit.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/SchoolEntities/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sRW50aXRpZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/SchoolEntities/Index.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/SchoolEntities/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sRW50aXRpZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/Shared/Error.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/Upload/Index.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/Upload/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/UserEntities/Create.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/UserEntities/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckVudGl0aWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/UserEntities/Delete.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/UserEntities/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckVudGl0aWVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/UserEntities/Details.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/UserEntities/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckVudGl0aWVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/UserEntities/Edit.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/UserEntities/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckVudGl0aWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/UserEntities/Index.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/UserEntities/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckVudGl0aWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/UserRole/Index.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/UserRole/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJvbGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/_ViewImports.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/_ViewStart.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SchoolProject - Copy/SchoolProject/Views/Shared/_Layout.cshtml]
+[D:/Solution/Unaiit/newSchoolApppProject/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-0r9p5kve3f

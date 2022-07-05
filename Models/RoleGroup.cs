@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNet.Identity.EntityFramework;
+﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SchoolProject.Models
@@ -6,7 +7,9 @@ namespace SchoolProject.Models
     [Table("RoleGroup")]
     public class RoleGroup
     {
-        public  int GroupId { get; set; }   
+        [Key]
+        public Guid Id { get; set; }
+        public string GroupId { get; set; }
         public string RoleId { get; set; }
         [ForeignKey("RoleId")]
         public virtual IdentityRole IdentityRole { get; set; }
