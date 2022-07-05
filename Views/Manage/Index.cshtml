@@ -1,0 +1,100 @@
+﻿@using X.PagedList.Mvc.Core
+@using X.PagedList.Web.Common
+@model X.PagedList.IPagedList<SchoolProject.Models.ManageEntities>
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+
+<div class="container">
+    <p>
+        <a asp-action="Create" class="btn btn-success">Add New Manage</a>
+    </p>
+    <div style="border:solid;margin-inline">
+        @using (Html.BeginForm("Index", "Manage", FormMethod.Get))
+        {
+            <div style="display:flex">
+                <div  style="margin-left:15px">
+                    <p>Screen Name</p>
+                    @Html.TextBox("ScreenName")
+                </div>
+                <div  style="margin-left:15px">
+                           <p>Target Name</p>
+                    @Html.TextBox("TargetName")
+                </div>
+               
+            </div>
+             <input style="background-color:#2c3e50 ;margin:15px;color:white" type="submit" value="Search" />
+        }
+    </div>
+    <table class="table" style="border: solid; margin-top:20px">
+        <tr>
+        <tr style="background-color: #2c3e50;color:aliceblue">
+            <th style="border: solid;border-color:aliceblue">
+                Stt
+            </th>
+            <th style="border: solid;border-color:aliceblue">
+                Screen name
+            </th>
+            <th style="border: solid;border-color:aliceblue">
+                Taget name
+            </th>
+            <th style="border: solid;border-color:aliceblue">
+                Display name
+            </th>
+            <th style="border: solid;border-color:aliceblue">
+                Value
+            </th>
+            <th style="border: solid;border-color:aliceblue">
+                User
+            </th>
+            <th style="border: solid;border-color:aliceblue"></th>
+        </tr>
+        </thead>
+        <tbody style="background-color: gainsboro;text-align:center">
+                @for (int i = 0; i < Model.Count; i++)
+                {
+                <tr style="border: solid;border-color:aliceblue">
+                    <td>
+                            @(i+1)
+                    </td>
+                    <td>
+                            @Model[i].Screen_Name
+                    </td>
+                    <td>
+                            @Model[i].Taget_Name
+                    </td>
+                    <td>
+                            @Model[i].Display_Name
+                    </td>
+                    <td>
+                            @Model[i].Value
+                    </td>
+                    <td>
+                            @Model[i].C_User
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-key="@Model[i].Key">
+                            <i class="fa fa-edit" style="color:#2c3e50"></i>
+                        </a> |
+                        <a asp-action="Delete" asp-route-key="@Model[i].Key" >  <i class="fa fa-trash" style="color:#2c3e50"></i></a>
+                    </td>
+                </tr>
+                }
+        </tbody>
+    </table>
+    <br />
+    <div style="margin:5px;">
+        Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+        @Html.PagedListPager(Model, page => Url.Action("Index",
+        new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }),
+        new PagedListRenderOptions {
+        LiElementClasses = new string[] { "page-item" },
+        PageClasses = new string[] { "page-link" }
+        })
+    </div>
+</div>

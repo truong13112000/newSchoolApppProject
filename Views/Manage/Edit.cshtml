@@ -1,0 +1,78 @@
+﻿@model SchoolProject.Models.ManageEntities
+
+
+@{
+    ViewData["Title"] = "Edit";
+}
+<div class="container">
+    <h1>Edit</h1>
+
+    <h4>ClassEntities</h4>
+    <hr />
+    <br />
+    @{
+        if (@ViewBag.success != null)
+        {
+            <div id="AlertBox" class="alert alert-success" role="alert">
+                @ViewBag.success
+            </div>
+        }
+    }
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Screen_Name" class="control-label"></label>
+                    <input asp-for="Screen_Name" class="form-control" />
+                    <span asp-validation-for="Screen_Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Taget_Name" class="control-label"></label>
+                    <input asp-for="Taget_Name" class="form-control" />
+                    <span asp-validation-for="Taget_Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Display_Name" class="control-label"></label>
+                    <input asp-for="Display_Name" class="form-control" />
+                    <span asp-validation-for="Display_Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Value" class="control-label"></label>
+                    <input asp-for="Value" class="form-control" />
+                    <span asp-validation-for="Value" class="text-danger"></span>
+                </div>
+                <br />
+                <div class="form-group">
+                    <input type="submit" value="Edit" class="btn btn-primary" />
+                    <a asp-action="Index">
+                        <input type="button" value="Back to List" class="btn btn-secondary" />
+                    </a>
+                </div>
+                <input asp-for="Key" hidden class="form-control" />
+            </form>
+            <br />
+            @{
+                if (@ViewBag.error != null)
+                {
+                    <div id="AlertBox" class="alert alert-danger" role="alert">
+                        @ViewBag.error
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        $(function() {
+            $('#AlertBox').removeClass('hide');
+            $('#AlertBox').delay(2000).slideUp(500);
+        });
+
+    </script>
+    }

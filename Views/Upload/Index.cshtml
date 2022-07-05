@@ -1,0 +1,96 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container">
+    <form name=f1 method=post enctype="multipart/form-data">
+        <div class="row">
+            <input id="uploadPDF" style="margin-right:10px;flex-basis: fit-content;" class="btn btn-outline-success col-5 " type="file" name="file" onchange="PreviewImage()" multiple>
+        </div>
+        <br />
+        <div class="con" style="clear:both;border:solid;">
+            <img class="responsive-iframe" id="viewer" style=" width: auto; max-width: 100%">
+            <iframe class="responsive-iframe" id="pdf" frameborder="0" style=" max-width: 100%">
+            </iframe>
+        </div>
+        <br />
+        <button type="button" name="submit" onclick="NextImage();" class="btn btn-success btn-sm">
+            <i class="fa fa-dot-circle-o"></i> Next
+        </button>&emsp;
+        <button type="button" name="submit" onclick="PreImage()" class="btn btn-success btn-sm">
+            <i class="fa fa-dot-circle-o"></i> Pre
+        </button>&emsp;
+        <button type="submit" name="submit" asp-controller="Upload" asp-action="Create" class="btn btn-success btn-sm">
+            <i class="fa fa-dot-circle-o"></i> Create
+        </button>&emsp;
+    </form>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+    function PreviewImage() {
+        tesst = document.getElementById("uploadPDF").files;
+        index = 0;
+        pdffile = document.getElementById("uploadPDF").files[0];
+        pdffile_url = URL.createObjectURL(pdffile);
+        $('#viewer').attr('src', pdffile_url);
+
+        if (pdffile.type == "image/jpeg" || pdffile.type == "image/jpg" || pdffile.type == "image/png") {
+            $('#viewer').attr('src', pdffile_url);
+            $('#pdf').attr('src', "");
+        } else {
+            $('#viewer').attr('src', "");
+            $('#pdf').attr('src', pdffile_url);
+        }
+    }
+    function NextImage() {
+        test22 = $(tesst).length - 1;
+        index = index == test22 ? index : index + 1
+        pdffile = document.getElementById("uploadPDF").files[index];
+        pdffile_url = URL.createObjectURL(pdffile);
+        $('#viewer').attr('src', pdffile_url);
+
+
+        if (pdffile.type == "image/jpeg" || pdffile.type == "image/jpg" || pdffile.type == "image/png") {
+            $('#viewer').attr('src', pdffile_url);
+            $('#pdf').attr('src', "");
+        } else {
+            $('#viewer').attr('src', "");
+            $('#pdf').attr('src', pdffile_url);
+        }
+    }
+    function PreImage() {
+        index = index == 0 ? 0 : index - 1
+        pdffile = document.getElementById("uploadPDF").files[index];
+        pdffile_url = URL.createObjectURL(pdffile);
+        $('#viewer').attr('src', pdffile_url);
+
+        if (pdffile.type == "image/jpeg" || pdffile.type == "image/jpg" || pdffile.type == "image/png") {
+            $('#viewer').attr('src', pdffile_url);
+            $('#pdf').attr('src', "");
+        } else {
+            $('#viewer').attr('src', "");
+            $('#pdf').attr('src', pdffile_url);
+        }
+    }
+</script>
+
+<style>
+    .con {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    }
+
+    .responsive-iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+</style>
